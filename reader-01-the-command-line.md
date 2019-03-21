@@ -160,6 +160,30 @@ man cut
 
 Use the arrow keys to navigate, and `q` to exit.
 
+## Finding and Replacing
+
+You can use the `tr` command to manipulate characters in lines of files.
+
+This will delete all instances of the letter "e"
+
+```bash
+"help" | tr -d "e"
+```
+
+This will replace instances of "e" with "a".
+
+```bash
+echo "help" | tr -s "e" "a"
+```
+
+You can also use the `sed` command to find and replace characters.
+
+This will replace all instances of "good" with "bad" in a file.
+
+```bash
+sed 's/good/bad/g' filename.txt
+```
+
 ## Piping and Directing Output
 
 Most commands will produce output on the screen. However we can also automatically save that output to the filesystem using the `>` character followed by a filename.
