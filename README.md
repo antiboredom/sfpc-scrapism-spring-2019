@@ -22,7 +22,7 @@ Introductions. Using the terminal. Basic python. Reading lines.
 * [Artificial Hells (introduction and chapter 1)](https://selforganizedseminar.files.wordpress.com/2011/08/bishop-claire-artificial-hells-participatory-art-and-politics-spectatorship.pdf) By Claire Bishop
 
 #### Assignment
-* Find three sentences (or phrases) in the wild. Your sentences could come from the internet or the real world, from a book, a store sign, a facebook post, a news article, product packaging, or from a restaurant menu. Anything is fine, but you must not write it yourself. Be prepared to recite what you have found next week in class.  
+* Create a work of computationally generated poetry using only command-line tools.
 
 ---
 
