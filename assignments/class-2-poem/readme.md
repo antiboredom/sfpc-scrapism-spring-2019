@@ -1,1 +1,1 @@
-Put your assignments here, if you want!~
+Assignment: Generate a poem using command line tools.
