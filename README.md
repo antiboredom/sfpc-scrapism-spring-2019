@@ -14,7 +14,7 @@ Scrapism is the artistic practice of web scraping, or of automatically collectin
 
 ### 1. March 21st
 
-Introductions. Using the terminal. Basic python. Reading lines.
+Introductions. Using the terminal. Reading lines.
 
 #### Readings  
 * [Intro to the command line](https://github.com/antiboredom/sfpc-scrapism/blob/master/reader-01-the-command-line.md)
@@ -28,7 +28,7 @@ Introductions. Using the terminal. Basic python. Reading lines.
 
 ### 2. March 28th
 
-Python part 2. Manipulating text. Automating writing.
+Intro to python. Manipulating text. Automating writing.
 
 #### Readings  
 * Tech reading 2 (see slack)
