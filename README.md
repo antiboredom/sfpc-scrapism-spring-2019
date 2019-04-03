@@ -31,7 +31,6 @@ Introductions. Using the terminal. Reading lines.
 Intro to python. Manipulating text. Automating writing.
 
 #### Readings  
-* Tech reading 2 (see slack)
 * [A User’s Guide to Détournement](http://www.bopsecrets.org/SI/detourn.htm)
 * [The Cut Up Method](http://www.writing.upenn.edu/~afilreis/88v/burroughs-cutup.html) by William Burroughs
 
@@ -45,7 +44,8 @@ Intro to python. Manipulating text. Automating writing.
 Web scraping basics.  Making big lists.
 
 #### Readings  
-* Tech reading 3 (see slack)
+* [HTML and CSS](https://github.com/antiboredom/sfpc-scrapism/blob/master/reader-03-html-css.md)
+* [Scraping Basics](https://github.com/antiboredom/sfpc-scrapism/blob/master/reader-04-scraping-basics.md)
 * [Uncreative Writing](https://www.chronicle.com/article/Uncreative-Writing/128908) by Kenneth Goldsmith
 
 #### Assignment
