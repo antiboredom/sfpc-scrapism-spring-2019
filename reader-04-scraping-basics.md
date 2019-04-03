@@ -143,10 +143,37 @@ for article in articles:
 	print(title, author)
 ```
 
+### Multiple pages
+
+Here's a complete example, showing how to get post titles and bodies from craigslist. The script grabs all post titles and urls from a craigslist page, and then visits each post, downloading the main description. Note how we use `time.sleep` to pause between requests.
+
+```python
+import time
+from requests_html import HTMLSession
+
+session = HTMLSession()
+r = session.get("https://newyork.craigslist.org/d/missed-connections/search/mis")
+
+titles = r.html.find(".result-title")
+for title in titles:
+	url = title.attrs.get("href")
+	name = title.text
+	  
+	r = session.get(url)
+	content = r.html.find("#postingbody", first=True)
+	  
+	if (content.text): # only if we found something
+		print (content.text)
+  
+	sleep(0.2) # sleep for 0.2 seconds as a curtesy to craigslist
+```
+
 
 ## Javascript
 
-Quite frequently you'll find that `requests_html` fails to find the elements that are visible on the screen when you load a page up in a browser. This is typically (but not always) because the page is loading content with Javascript **after** the initial HTML is loaded. This is extremely common, but fortunately, requests_html has the ability to load pages with Javascript using the `render` function. Please note that this literally downloads an entire new version of Chrome to your home folder the first time you call it.
+Quite frequently you'll find that `requests_html` fails to find the elements that are visible on the screen when you load a page up in a browser. This is typically (but not always) because the page is loading content with Javascript **after** the initial HTML is loaded. This is extremely common, but fortunately, requests_html has the ability to load pages with Javascript using the `render` function. Just call `render` before you start using `find`.
+
+Please note that this literally downloads an entire new version of Chrome to your home folder the first time you call it.
 
 ```python
 from requests_html import HTMLSession
@@ -155,6 +182,8 @@ session = HTMLSession()
 
 response = session.get('https://www.nytimes.com/')
 response.html.render()
+
+links = response.html.find('a')
 ```
 
 ## Pagination
