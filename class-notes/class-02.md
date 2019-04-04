@@ -1,24 +1,5 @@
 # March 28th - Intro to Python
 
-
-## Volunteers
-
-Sara
-Yehwan
-Alex
-Sheldon
-Bomani
-
-
-
-https://www.youtube.com/watch?v=YPe_qqC43pw&
-
-
-[https://youtu.be/YPe_qqC43pw](https://youtu.be/YPe_qqC43pw)
-
-
-## Class
-
 How to use python
 Libraries
 
