@@ -1,12 +1,5 @@
 # March 21st
 
-Video of the class:
-
-https://www.youtube.com/watch?v=-qTyJEY_NVE&
-
-
-[https://youtu.be/-qTyJEY_NVE](https://youtu.be/-qTyJEY_NVE)
-
 
 # Details
 
