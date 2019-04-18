@@ -15,7 +15,7 @@ __Effectively which words are recognised as nouns in all the language models.__
 Sorted by frequency.
 
 
-```
+```python
    ['Duryodhanization', 'Delusion', 'Version', 'Presidents', 'Burning', 'Religion', 'Cryptocurrency']
 ```
 
@@ -25,7 +25,7 @@ For each, based on titles finding the most similar books for each language train
 
 __Effectively which book title has most in common with all the other book titles in different languages.__
 
-
+```md
     # *English* - en_core_web_md
     * The Fall of Crazy House by James Patterson - (similar to 111 books)
     * All That You Leave Behind by Erin Lee Carr - (similar to 81 books)
@@ -65,10 +65,10 @@ __Effectively which book title has most in common with all the other book titles
     * The Death Gap: How Inequality Kills - David A. Ansell, Peter Ber - (similar to 168 books)
     * Dutch Girl: Audrey Hepburn and World War II-Richard Matzen  2019 - (similar to 167 books)
     * Erased: The Untold Story of the Panama Canal - Marixa Lasso 2019 - (similar to 167 books)
-
+```
 
 ## Python Source Code:
-```
+```python
 import spacy
 import torch
 from gensim.models import Word2Vec
