@@ -113,7 +113,7 @@ Getting it in python:
 
 1. Copy the request as cURL, convert it to python
 
-
+    ```
     import requests
     
     headers = {
@@ -130,6 +130,7 @@ Getting it in python:
     items = data\["data"\]["legacyCollection"]\["stream"\]["edges"]
     for item in items:
       print(item\["node"\]["summary"])
+    ```
 
 
 # About dictionaries
